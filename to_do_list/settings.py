@@ -83,7 +83,7 @@ DATABASES = {
     }
 }
 
-DATABASES['default']=dj_database_url.parse(' postgres://todo_django_w6ox_user:G1RLlJwKA4giNIRegSyWhHV1ns5eUaCf@dpg-cna5paol5elc7395d2jg-a.singapore-postgres.render.com/todo_django_w6ox')
+DATABASES['default']=dj_database_url.parse('postgres://todo_django_w6ox_user:G1RLlJwKA4giNIRegSyWhHV1ns5eUaCf@dpg-cna5paol5elc7395d2jg-a/todo_django_w6ox')
 # postgres://todo_django_w6ox_user:G1RLlJwKA4giNIRegSyWhHV1ns5eUaCf@dpg-cna5paol5elc7395d2jg-a.singapore-postgres.render.com/todo_django_w6ox
 
 # Password validation
